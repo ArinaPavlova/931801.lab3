@@ -17,10 +17,9 @@
 			width: 540px;
 			font-family: Helvetica;
 			text-align: justify;
-			position: absolute;
-			top: 90px;
-			left: 41%;
+			margin-left: 250px;
 			line-height: 21px;
+			margin-top: 30px;
 		}
 		main::first-letter 
 			{
@@ -46,7 +45,6 @@
 			width: 200px;
 			height: 90%;
 			position: absolute;
-			left: 28.3%;
 			color: white;
 			text-align: left;
 			padding-top: 15px;
@@ -65,8 +63,15 @@
 		{
 			background-color: green;
 		}
+		div
+		{
+			position: absolute;
+			left: 28.3%;
+			height: 100%;
+			width: 100%;
+		}
 		
-		@media (max-width: 800px)
+		@media (max-width: 1200px)
 		{
 			nav
 			{
@@ -92,7 +97,7 @@
 			{
 				font-size: 22px;
 				height: 30px;
-				top: 100%;
+				top: 905px;
 			}
 			p
 			{
@@ -108,3 +113,4 @@
 				width: 100%;
 			}
 		}
+
